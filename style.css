@@ -1,0 +1,96 @@
+body {
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 85%;
+    background-color: #f0f0f0;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.user {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-right: 1px solid #000;
+}
+
+.user button {
+    width: 120px;
+    height: 120px;
+    font-size: 1.5em;
+    border-radius: 10%;
+    background-color: #f0f0f0;
+    border: 1px solid #000;
+    align-items: center;
+}
+
+.user button:hover {
+    background-color: #e0e0e0;
+}
+
+.computer {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.computer div {
+    width: 150px;
+    height: 150px;
+    font-size: 1.5em;
+    border-radius: 10%;
+    background-color: #f0f0f0;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.computer div:hover {
+    background-color: #e0e0e0;
+}
+
+.option {
+    margin: 12px;
+}
+
+.option button {
+    width: 100px;
+    height: 50px;
+    font-size: 1em;
+    border-radius: 30%;
+    background-color: #f0f0f0;
+    border: 1px solid #000;
+    align-items: center;
+}
+
+.option button:hover {
+    background-color: #e0e0e0;
+}
